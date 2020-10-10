@@ -1,0 +1,10 @@
+#docker container
+.devcontainer
+
+#dependices
+node_modules/
+Reactjs/tic-tac-toe/node_modules
+
+
+changelog.md
+test_*
