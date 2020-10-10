@@ -13,14 +13,14 @@ GET http://{{baseUrl}}/coffeeorders HTTP/1.1
 
 ###
 
-# add new order for triple espresso
+# add new order for Matcha Tea
 POST http://{{baseUrl}}/coffeeorders HTTP/1.1
 content-type: application/json
 
 {
-    "coffee": "triple espresso",
-    "emailAddress": "audstanley@gmail.com",
-    "flavor": "Pumpkin Spice",
+    "coffee": "Tea",
+    "emailAddress": "StevenSalvador@csu.fullerton.edu",
+    "flavor": "Matcha",
     "strength": "100"
 }
 
@@ -32,7 +32,7 @@ content-type: application/json
 
 {
     "coffee": "espresso",
-    "emailAddress": "aeinstein@aol.com",
+    "emailAddress": "mobama@mail.com",
     "flavor": "Mocha",
     "strength": "80"
 }
